@@ -1,8 +1,6 @@
 import streamlit as st
 
 st.title("Welcome to Pet App")
-from PIL import Image
-img = Image.open("C:/Users/hetvi/OneDrive/Desktop/python code/JZqiYGvm_400x400.jpeg")
 
 PetType=st.slider("Select PetType=",0,3)
 Breed=st.slider("Select Breed=",0,5)
